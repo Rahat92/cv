@@ -1,0 +1,24 @@
+body{
+	color: red;
+	box-sizing: border-box;
+}
+.mainIntro{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 7px;
+}
+@media (max-width:600px){
+	.mainIntro{
+		grid-template-columns: 1fr;
+	}
+	.maintable{
+		max-width: 100%;
+
+	}
+}
+.image{
+	min-width: 100px;
+}
+img{
+	max-width: 70%;
+}
