@@ -3,7 +3,10 @@ body{
 }
 
 
-
+.wrapper{
+	
+	padding:10px 20px;	
+}
 
 .mainIntro{
 	display: grid;
