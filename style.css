@@ -1,13 +1,28 @@
 body{
-	color: red;
 	box-sizing: border-box;
 }
+
+
+
+
 .mainIntro{
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
 	grid-gap: 20px;
+	align-items: center;
+}
+.mainIntro h1{
+	font-family: 'Otomanopee One', sans-serif; 
+}
+.intro h1,.intro p{
+	text-align: center;
+}
+h3,ul,table,a{
+	font-family: 'Just Another Hand', cursive;
+	font-size: 1.5rem;
 }
 .image img{
+	width: 100%;
 	box-shadow: 5px 3px 10px .5px grey;
 }
 @media (max-width:600px){
