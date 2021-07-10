@@ -5,7 +5,10 @@ body{
 .mainIntro{
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
-	grid-gap: 7px;
+	grid-gap: 20px;
+}
+.image img{
+	box-shadow: 5px 3px 10px .5px grey;
 }
 @media (max-width:600px){
 	.mainIntro{
@@ -15,10 +18,10 @@ body{
 		max-width: 100%;
 
 	}
-}
-.image{
-	min-width: 100px;
-}
-img{
-	max-width: 70%;
+	.image{
+		width: 100%;
+	}
+	.image img{
+		width: 100%;
+	}
 }
